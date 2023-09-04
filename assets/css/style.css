@@ -63,7 +63,7 @@ div{
     #cta-btn{
         max-width: 8em;
     }
-    #brand1{
-        font-size: 0.5em;
+    #brand1, #intro{
+        font-size: 1em;
     }
 }
