@@ -47,3 +47,13 @@ div{
 .header{
     font-size: 1.6em;
 }
+
+#img1 {
+    width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    #img1{
+        width: 100%;
+    }
+}
