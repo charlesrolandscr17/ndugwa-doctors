@@ -1,0 +1,49 @@
+div{
+    padding: 0%;
+    margin: 0%;
+}
+.brand{
+    color:rgb(58, 143, 255) !important;
+}
+
+.services{
+    transition: all 1s;
+}
+
+.services:hover{
+    background-color: #c4d2ff;
+}
+
+.btn-app{
+    transition: all 1s;
+    background-color: aliceblue;
+}
+
+.btn-app:hover{
+    background-color: rgb(0, 110, 255);
+    color: white !important;
+}
+
+.nav-colored {
+    transition: all 1s;
+    background-color: white;
+}
+
+.nav-transparent {
+    transition: all 1s;
+    background-color: rgba(255, 255, 255, 0.74);
+}
+
+.nav-link{
+    font-size: 1.2em;
+    color: rgb(63, 63, 253);
+}
+
+.nav-link-white{
+    font-size: 1.2em;
+    color: rgb(63, 63, 253);
+}
+
+.header{
+    font-size: 1.6em;
+}

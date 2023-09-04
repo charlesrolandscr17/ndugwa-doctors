@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ndugwa Doctors Clinic</title>
+</head>
+
+<body style="padding: 0px; margin: 0px;">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/navbar-top-fixed.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/features.css" rel="stylesheet">
+
+    <style>
+        #jumbotron {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("assets/img/hero-bg.jpg");
+            background-size: 100%;
+            height: 35em;
+            color: white !important;
+        }
+
+        .icon-blue {
+            color: rgb(58, 58, 243);
+        }
+
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+
+        .dark:hover {
+            border-radius: 10%;
+            background-color: rgb(13, 110, 253);
+            color: white !important;
+        }
+
+
+        .dark {
+            transition: all 1s;
+            border-radius: 10%;
+        }
+    </style>
+
+
+    </head>
+
+
+    <nav class="navbar navbar-expand-md navbar-light fixed-top nav-transparent py-3 shadow-sm" id="myNav">
+        <div class="container d-flex justify-content-between">
+            <a href="" class="d-flex align-items-center text-dark text-decoration-none header"
+                style="padding-right: 5em;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" class="me-2" viewBox="0 0 118 94"
+                    role="img">
+                    <title>Bootstrap</title>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z"
+                        fill="currentColor"></path>
+                </svg>
+                <span class="fs-4">Ndugwa Doctors Clinic</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0 d-flex justify-content-between" style="width: 35em;">
+                        <li class="nav-item">
+                            <a class="nav-link dark rounded" style="color: black;" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link dark rounded" style="color: black;" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link dark rounded" style="color: black;" href="#" tabindex="-1"
+                                aria-disabled="true">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link dark rounded" style="color: black;" tabindex="-1"
+                                aria-disabled="true">Contact
+                                Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-primary text-white rounded px-3" tabindex="-1"
+                                aria-disabled="true">Make Appointment</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="p-5 bg-light rounded-3" id="jumbotron" style="padding-top: 0px;">
+        <div class="container py-5" style="margin-top: 5em;">
+            <h1 class="display-5 fw-bold">Welcome To <span class="brand">Ndugwa Doctors Hospital</span> </h1>
+            <p class="col-md-8 fs-4">Ndugwa Doctors Hospital is a medical Facility in Mutundwe with a wide range of
+                services including General Medicine, Main operations, pediatrics and a well equipped
+                laboratory among Others...
+            </p>
+            <button class="btn btn-primary btn-lg" type="button">Contact Us</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row  row-cols-sm-1 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+            <div class="col d-flex align-items-start services p-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                    class="bi bi-heart-pulse-fill text-primary flex-shrink-0 me-3" viewBox="0 0 16 16">
+                    <path
+                        d="M1.475 9C2.702 10.84 4.779 12.871 8 15c3.221-2.129 5.298-4.16 6.525-6H12a.5.5 0 0 1-.464-.314l-1.457-3.642-1.598 5.593a.5.5 0 0 1-.945.049L5.889 6.568l-1.473 2.21A.5.5 0 0 1 4 9H1.475Z" />
+                    <path
+                        d="M.88 8C-2.427 1.68 4.41-2 7.823 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C11.59-2 18.426 1.68 15.12 8h-2.783l-1.874-4.686a.5.5 0 0 0-.945.049L7.921 8.956 6.464 5.314a.5.5 0 0 0-.88-.091L3.732 8H.88Z" />
+                </svg>
+                <div>
+                    <h4 class="fw-bold mb-0">Emergency Services</h4>
+                    <p>Paragraph of text beneath the heading to explain the heading.</p>
+                </div>
+            </div>
+            <div class="col d-flex align-items-start services  p-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                    class="bi bi-heart-pulse-fill text-primary flex-shrink-0 me-3" viewBox="0 0 16 16">
+                    <path
+                        d="M1.828 8.9 8.9 1.827a4 4 0 1 1 5.657 5.657l-7.07 7.071A4 4 0 1 1 1.827 8.9Zm9.128.771 2.893-2.893a3 3 0 1 0-4.243-4.242L6.713 5.429l4.243 4.242Z" />
+                </svg>
+                <div>
+                    <h4 class="fw-bold mb-0">Phamarcy</h4>
+                    <p>Paragraph of text beneath the heading to explain the heading.</p>
+                </div>
+            </div>
+            <div class="col d-flex align-items-start services  p-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                    class="bi bi-heart-pulse-fill text-primary flex-shrink-0 me-3" viewBox="0 0 16 16">
+                    <path d="M9.5 12.5a1.5 1.5 0 1 1-2-1.415V6.5a.5.5 0 0 1 1 0v4.585a1.5 1.5 0 0 1 1 1.415z" />
+                    <path
+                        d="M5.5 2.5a2.5 2.5 0 0 1 5 0v7.55a3.5 3.5 0 1 1-5 0V2.5zM8 1a1.5 1.5 0 0 0-1.5 1.5v7.987l-.167.15a2.5 2.5 0 1 0 3.333 0l-.166-.15V2.5A1.5 1.5 0 0 0 8 1z" />
+                </svg>
+                <div>
+                    <h4 class="fw-bold mb-0">Medical Equipement and Facilities</h4>
+                    <p>Paragraph of text beneath the heading to explain the heading.</p>
+                </div>
+            </div>
+            <div class="col d-flex align-items-start services  p-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                    class="bi bi-heart-pulse-fill text-primary flex-shrink-0 me-3" viewBox="0 0 16 16">
+                    <path
+                        d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7Zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216ZM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z" />
+                </svg>
+                <div>
+                    <h4 class="fw-bold mb-0">Medical Staff and Expertise</h4>
+                    <p>Paragraph of text beneath the heading to explain the heading.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="p-5 mb-5" style="background-color: #537afa;">
+        <div class="container text-white text-center">
+            <h2>In an Emergency? Need Help?</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia dolor deserunt nam fuga, aut
+                officiis est animi soluta distinctio, ipsam quod sed! Ab error suscipit illo consequatur libero
+                earum expedita?</p>
+            <button class="btn text-dark btn-app">Make an Appointment</button>
+        </div>
+    </div>
+
+    <div class="container d-flex align-items-center mb-5" style="flex-direction: column;">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis, blanditiis error sunt quasi nulla
+            nostrum esse, ab temporibus deleniti minima rerum inventore, dignissimos ducimus? Maxime molestiae at
+            incidunt. Sit, repudiandae!</p>
+        <div class="d-flex justify-content-between">
+            <img src="assets/img/hero-bg.jpg" alt="" width="50%">
+            <div style="width: 5em;"></div>
+            <div>
+                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, eius!</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, possimus minima. Perferendis
+                    temporibus amet eaque tenetur totam impedit repellendus fuga voluptate quasi, quas incidunt
+                    nesciunt cum ducimus eos quam voluptatibus?</p>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, eius!</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, eius!</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, eius!</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, eius!</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, eius!</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora sunt et reprehenderit deserunt
+                    fuga qui nostrum excepturi necessitatibus architecto aspernatur.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mb-5">
+        <div class="row">
+            <h3 class="text-center mb-3">Our Medical Personnel</h3>
+            <div class="bd-example col-md-3">
+                <div class="">
+                    <div class="col">
+                        <div class="card">
+                            <img src="assets/img/doctors-1.jpg" alt="">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up
+                                    the bulk of the
+                                    card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bd-example col-md-3">
+                <div class=" ">
+                    <div class="col">
+                        <div class="card">
+                            <img src="assets/img/doctors-2.jpg" alt="">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up
+                                    the bulk of the
+                                    card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bd-example col-md-3">
+                <div class=" ">
+                    <div class="col">
+                        <div class="card">
+                            <img src="assets/img/doctors-3.jpg" alt="">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up
+                                    the bulk of the
+                                    card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bd-example col-md-3">
+                <div class=" ">
+                    <div class="col">
+                        <div class="card">
+                            <img src="assets/img/doctors-1.jpg" alt="">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up
+                                    the bulk of the
+                                    card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer style="background-color: rgba(0, 0, 0, 0.11);">
+        <form action="" method="post" class="pt-5 pb-3">
+            <div class="container">
+                <div class="row my-3">
+                    <div class="col">
+                        <input type="text" name="name" id="name" class="form-control" placeholder="Name">
+                    </div>
+                    <div class="col">
+                        <input type="email" name="email" id="email" class="form-control" placeholder="Email">
+                    </div>
+                    <div class="col">
+                        <input type="text" name="phone" id="phone" class="form-control" placeholder="Phone">
+                    </div>
+                </div>
+                <div class="row my-3">
+                    <div class="col">
+                        <input type="date" name="date" id="date" class="form-control">
+                    </div>
+                    <div class="col">
+                        <select name="doc" id="doctor" class="form-control">
+                            <option selected> Choose Doctor... </option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <select name="dep" id="department" class="form-control">
+                            <option selected> Choose Department... </option>
+                            <option selected> Dentist </option>
+                            <option selected> Obs and Gyn </option>
+                            <option selected> Pediatrics </option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row my-3 mx-1">
+                    <textarea name="message" id="message" rows="5" class="form-control"
+                        placeholder="Message (Optional)"></textarea>
+                </div>
+                <div class="d-flex justify-content-center"><input type="button" value="Make Appointment"
+                        class="btn btn-primary rounded-pill px-4 py-2">
+                </div>
+            </div>
+        </form>
+
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.164);">&copy; Copyright Ndugwa Doctors
+            Hospital. All Rights Reserved</div>
+    </footer>
+</body>
+
+<script src="./assets/js/bootstrap.bundle.min.js"></script>
+<script src="./assets/js/script.js"></script>
+
+</html>
