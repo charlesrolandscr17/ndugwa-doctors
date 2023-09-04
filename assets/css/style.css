@@ -56,7 +56,11 @@ div{
     font-size: 1em;
 }
 
-@media screen and (max-width: 768px) {
+#intro {
+    font-size: 1.5em;
+}
+
+@media screen and (max-width: 500px) {
     #img1{
         width: 100%;
     }
